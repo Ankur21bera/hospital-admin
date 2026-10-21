@@ -32,11 +32,6 @@ const adminMenu = [
         icon: CalendarCheck,
       },
       {
-        label: "Cancelled Appointments",
-        path: "/admin/cancelled-appointments",
-        icon: CalendarX,
-      },
-      {
         label: "Manage Holidays",
         path: "/admin/manage-holidays",
         icon: CalendarDays,

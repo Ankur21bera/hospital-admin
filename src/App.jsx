@@ -18,7 +18,6 @@ import Dashboard from "./Pages/admin/Dashboard";
 import AddDoctor from "./Pages/admin/Adddoctor";
 import Doctorlist from "./Pages/admin/Doctorlist";
 import AllAppointments from "./Pages/admin/Allappointment";
-import CancelAppointmentList from "./Pages/admin/CancelAppointmentlist";
 import Enquiries from "./Pages/admin/Enquiries";
 import ManageHoliday from "./Pages/admin/Manageholiday";
 import Manageleave from "./Pages/admin/Manageleave";
@@ -129,10 +128,6 @@ const AppRoutes = () => {
             <Route
               path="/admin/appointments"
               element={<AllAppointments />}
-            />
-            <Route
-              path="/admin/cancelled-appointments"
-              element={<CancelAppointmentList />}
             />
             <Route
               path="/admin/enquiries"
